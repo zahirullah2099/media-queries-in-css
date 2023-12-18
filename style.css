@@ -1,0 +1,48 @@
+
+/* body{
+    background-color: green;
+}
+@media  (width < 600px){
+    body{
+
+        background-color: rgb(138, 138, 53);
+        color: white;
+    }
+} */
+
+/* responisve 4 column layout */
+/* *{
+    box-sizing: border-box;
+}
+
+.column{
+    float: left;
+    width: 25%;
+    padding: 20px;
+    color: white;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+@media (width<992px){
+    .column{
+        width: 50%;
+    }
+}
+@media (width<600px){
+    .column{
+        width: 100%;
+    }
+} */
+body{
+    background-color: green;
+}
+@media (orientation:landscape){
+    
+    body{
+        background-color: red;
+    }
+}
+ 
